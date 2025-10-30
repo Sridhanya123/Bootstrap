@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+<div id = "accordion">
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                     What payment methods are accepted?
+                  </a>
+               </div>
+               <div id = "collapseOne" class = "collapse show" data-parent = "#accordion">
+                  <div class = "card-body">All credit and debit cards</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                     Is international shipping available?
+                  </a>
+               </div>
+               <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">Yes,we ship to many countries world wide</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                  What is the return policy?
+                  </a>
+               </div>
+               <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">We have 7 days return policy for eligible products</div>
+               </div>
+            </div>
+         </div>
+
+<div class="card-deck">
+<div class="card bg-primary">
+    <div class="card-body">
+        <h5>Michael Jordhan</h5>
+        <h6>Trainer</h6>
+        <div class="dropdown">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact Info</button>
+            <div class="dropdown-menu">
+                <p class="dropdown-item">Call</p>
+                <p class="dropdown-item">Email</p>
+                <p class="dropdown-item">Message</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card bg-success">
+    <div class="card-body">
+        <h5>Warren Buffett</h5>
+        <h6>HOD</h6>
+        <div class="dropdown">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact Info</button>
+            <div class="dropdown-menu">
+                <p class="dropdown-item">Call</p>
+                <p class="dropdown-item">Email</p>
+                <p class="dropdown-item">Message</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div  class="card bg-secondary">
+    <div class="card-body">
+        <h5>Bill Gates</h5>
+        <h6>Trainer</h6>
+        <div class="dropdown">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact Info</button>
+            <div class="dropdown-menu">
+                <p class="dropdown-item">Call</p>
+                <p class="dropdown-item">Email</p>
+                <p class="dropdown-item">Message</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
